@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  PeetMee
+
+  Created by Carlos Rodriguez Guerrero on 06/03/20.
+  Copyright © 2020 Carlos Rodriguez Guerrero. All rights reserved.
+*/
+
+
+/*
+Login
+*/
+
+
+
+
+/*
+SignUp
+*/
+
+"sign_up_alert_done" = "Ok";
+"sign_up_server_side_error_title" = "Error";
+"sign_up_register_succes_title" = "Cuenta creada";
+"sign_up_register_in_progress_title" = "Creating account...";
+"sign_up_register_succes_message" = "Tu cuenta fue creada, ahora puedes acceder a Peetme";
+
+/*
+Common
+*/
+"_loading_" = "loading...";

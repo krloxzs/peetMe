@@ -3,18 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		287404E7E9D6B7EAE805151F /* Pods_PeetMeeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28CD513C0648466F7502B8C /* Pods_PeetMeeTests.framework */; };
+		4E27C4D3241708B4000D589F /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E27C4D2241708B4000D589F /* MainTabBarViewController.swift */; };
+		4E5E9FD92412FC5400AC2122 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E5E9FDB2412FC5400AC2122 /* Localizable.strings */; };
+		4E5E9FE02412FD9E00AC2122 /* PeetMeeLocalizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E9FDF2412FD9E00AC2122 /* PeetMeeLocalizables.swift */; };
+		4E5E9FE2241314FB00AC2122 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5E9FE1241314FB00AC2122 /* StringExtension.swift */; };
+		4E66EE962484A872009F165D /* SignUpConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E66EE952484A872009F165D /* SignUpConstants.swift */; };
+		4E6E2CE32413263D007DC095 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E2CE22413263D007DC095 /* UIColorExtension.swift */; };
+		4E9667A424117D3F00ECE389 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E9667A324117D3F00ECE389 /* GoogleService-Info.plist */; };
+		4E9667A62411B9AF00ECE389 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9667A52411B9AF00ECE389 /* Constants.swift */; };
+		4EAB4A9F24105A5B001504D5 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB4A9E24105A5B001504D5 /* UIViewExtension.swift */; };
+		4EAB4AA824116FFA001504D5 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB4AA124116FFA001504D5 /* SignUpPresenter.swift */; };
+		4EAB4AA924116FFA001504D5 /* SignUpLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB4AA224116FFA001504D5 /* SignUpLocalDataManager.swift */; };
+		4EAB4AAA24116FFA001504D5 /* SignUpProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB4AA324116FFA001504D5 /* SignUpProtocols.swift */; };
+		4EAB4AAB24116FFA001504D5 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB4AA424116FFA001504D5 /* SignUpInteractor.swift */; };
+		4EAB4AAC24116FFA001504D5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB4AA524116FFA001504D5 /* SignUpView.swift */; };
+		4EAB4AAD24116FFA001504D5 /* SignUpRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB4AA624116FFA001504D5 /* SignUpRemoteDataManager.swift */; };
+		4EAB4AAE24116FFA001504D5 /* SignUpWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB4AA724116FFA001504D5 /* SignUpWireFrame.swift */; };
 		4EC2D1ED24104E2900F5FBE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D1EC24104E2900F5FBE8 /* AppDelegate.swift */; };
 		4EC2D1EF24104E2900F5FBE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D1EE24104E2900F5FBE8 /* SceneDelegate.swift */; };
-		4EC2D1F124104E2900F5FBE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D1F024104E2900F5FBE8 /* ViewController.swift */; };
 		4EC2D1F424104E2900F5FBE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC2D1F224104E2900F5FBE8 /* Main.storyboard */; };
 		4EC2D1F624104E2A00F5FBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC2D1F524104E2A00F5FBE8 /* Assets.xcassets */; };
 		4EC2D1F924104E2A00F5FBE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC2D1F724104E2A00F5FBE8 /* LaunchScreen.storyboard */; };
 		4EC2D20424104E2A00F5FBE8 /* PeetMeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D20324104E2A00F5FBE8 /* PeetMeeTests.swift */; };
 		4EC2D20F24104E2A00F5FBE8 /* PeetMeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D20E24104E2A00F5FBE8 /* PeetMeeUITests.swift */; };
+		4EC2D22A241054A200F5FBE8 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D223241054A200F5FBE8 /* LoginPresenter.swift */; };
+		4EC2D22B241054A200F5FBE8 /* LoginLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D224241054A200F5FBE8 /* LoginLocalDataManager.swift */; };
+		4EC2D22C241054A200F5FBE8 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D225241054A200F5FBE8 /* LoginProtocols.swift */; };
+		4EC2D22D241054A200F5FBE8 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D226241054A200F5FBE8 /* LoginInteractor.swift */; };
+		4EC2D22E241054A200F5FBE8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D227241054A200F5FBE8 /* LoginView.swift */; };
+		4EC2D22F241054A200F5FBE8 /* LoginRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D228241054A200F5FBE8 /* LoginRemoteDataManager.swift */; };
+		4EC2D230241054A200F5FBE8 /* LoginWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2D229241054A200F5FBE8 /* LoginWireFrame.swift */; };
+		6F89585273B0CB76281107AB /* Pods_PeetMee_PeetMeeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E04FE234109DC1A2BA0C19 /* Pods_PeetMee_PeetMeeUITests.framework */; };
+		9DC7423FBD7E25B3A77CF9EE /* Pods_PeetMee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25BD8A962DD83C17DF0EDBF /* Pods_PeetMee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +60,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03228F307E0FC4F5D1F82C22 /* Pods-PeetMee-PeetMeeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeetMee-PeetMeeUITests.release.xcconfig"; path = "Target Support Files/Pods-PeetMee-PeetMeeUITests/Pods-PeetMee-PeetMeeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		06D6EAD7C31FFC736BFDEAEF /* Pods-PeetMeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeetMeeTests.debug.xcconfig"; path = "Target Support Files/Pods-PeetMeeTests/Pods-PeetMeeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24AEFA58488A967B7B72A9A0 /* Pods-PeetMee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeetMee.release.xcconfig"; path = "Target Support Files/Pods-PeetMee/Pods-PeetMee.release.xcconfig"; sourceTree = "<group>"; };
+		2678F4820B7459FAE5C460DC /* Pods-PeetMee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeetMee.debug.xcconfig"; path = "Target Support Files/Pods-PeetMee/Pods-PeetMee.debug.xcconfig"; sourceTree = "<group>"; };
+		44F92000190A8A1C9666480A /* Pods-PeetMeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeetMeeTests.release.xcconfig"; path = "Target Support Files/Pods-PeetMeeTests/Pods-PeetMeeTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E27C4D2241708B4000D589F /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		4E5E9FDA2412FC5400AC2122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4E5E9FDC2412FCB700AC2122 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		4E5E9FDD2412FCB700AC2122 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4E5E9FDE2412FCB800AC2122 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4E5E9FDF2412FD9E00AC2122 /* PeetMeeLocalizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeetMeeLocalizables.swift; sourceTree = "<group>"; };
+		4E5E9FE1241314FB00AC2122 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		4E66EE952484A872009F165D /* SignUpConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpConstants.swift; sourceTree = "<group>"; };
+		4E6E2CE22413263D007DC095 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4E9667A324117D3F00ECE389 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E9667A52411B9AF00ECE389 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4EAB4A9E24105A5B001504D5 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4EAB4AA124116FFA001504D5 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		4EAB4AA224116FFA001504D5 /* SignUpLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLocalDataManager.swift; sourceTree = "<group>"; };
+		4EAB4AA324116FFA001504D5 /* SignUpProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpProtocols.swift; sourceTree = "<group>"; };
+		4EAB4AA424116FFA001504D5 /* SignUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
+		4EAB4AA524116FFA001504D5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		4EAB4AA624116FFA001504D5 /* SignUpRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRemoteDataManager.swift; sourceTree = "<group>"; };
+		4EAB4AA724116FFA001504D5 /* SignUpWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWireFrame.swift; sourceTree = "<group>"; };
 		4EC2D1E924104E2900F5FBE8 /* PeetMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeetMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC2D1EC24104E2900F5FBE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC2D1EE24104E2900F5FBE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EC2D1F024104E2900F5FBE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EC2D1F324104E2900F5FBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EC2D1F524104E2A00F5FBE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC2D1F824104E2A00F5FBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +97,17 @@
 		4EC2D20A24104E2A00F5FBE8 /* PeetMeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeetMeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC2D20E24104E2A00F5FBE8 /* PeetMeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeetMeeUITests.swift; sourceTree = "<group>"; };
 		4EC2D21024104E2A00F5FBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC2D223241054A200F5FBE8 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		4EC2D224241054A200F5FBE8 /* LoginLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLocalDataManager.swift; sourceTree = "<group>"; };
+		4EC2D225241054A200F5FBE8 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		4EC2D226241054A200F5FBE8 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		4EC2D227241054A200F5FBE8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4EC2D228241054A200F5FBE8 /* LoginRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRemoteDataManager.swift; sourceTree = "<group>"; };
+		4EC2D229241054A200F5FBE8 /* LoginWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireFrame.swift; sourceTree = "<group>"; };
+		72A8BE86A326FE9B29EA720E /* Pods-PeetMee-PeetMeeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeetMee-PeetMeeUITests.debug.xcconfig"; path = "Target Support Files/Pods-PeetMee-PeetMeeUITests/Pods-PeetMee-PeetMeeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D28CD513C0648466F7502B8C /* Pods_PeetMeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeetMeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25BD8A962DD83C17DF0EDBF /* Pods_PeetMee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeetMee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E04FE234109DC1A2BA0C19 /* Pods_PeetMee_PeetMeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeetMee_PeetMeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC7423FBD7E25B3A77CF9EE /* Pods_PeetMee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287404E7E9D6B7EAE805151F /* Pods_PeetMeeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +131,142 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F89585273B0CB76281107AB /* Pods_PeetMee_PeetMeeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E27C4D124170816000D589F /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4E27C4D2241708B4000D589F /* MainTabBarViewController.swift */,
+				4E27C4D424170A17000D589F /* Feed */,
+				4E27C4D524170A23000D589F /* Search */,
+				4E27C4D624170A32000D589F /* UploadPost */,
+				4E27C4D724170A3F000D589F /* Notifications */,
+				4E27C4D824170A4F000D589F /* Profile */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		4E27C4D424170A17000D589F /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		4E27C4D524170A23000D589F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		4E27C4D624170A32000D589F /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		4E27C4D724170A3F000D589F /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		4E27C4D824170A4F000D589F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4E5E9FE32413150900AC2122 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E5E9FE1241314FB00AC2122 /* StringExtension.swift */,
+				4EAB4A9E24105A5B001504D5 /* UIViewExtension.swift */,
+				4E6E2CE22413263D007DC095 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4E66EE942484A859009F165D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4E66EE952484A872009F165D /* SignUpConstants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		4EAB4AA024116FDC001504D5 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				4E66EE942484A859009F165D /* Constants */,
+				4EAB4AB02411739A001504D5 /* View */,
+				4EAB4AB3241173D0001504D5 /* Interactor */,
+				4EAB4AB1241173B0001504D5 /* Presenter */,
+				4EAB4AAF2411738E001504D5 /* WireFrame */,
+				4EAB4AB4241173DE001504D5 /* DataManagers */,
+				4EAB4AB2241173BF001504D5 /* Protocols */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		4EAB4AAF2411738E001504D5 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB4AA724116FFA001504D5 /* SignUpWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		4EAB4AB02411739A001504D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB4AA524116FFA001504D5 /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4EAB4AB1241173B0001504D5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB4AA124116FFA001504D5 /* SignUpPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4EAB4AB2241173BF001504D5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB4AA324116FFA001504D5 /* SignUpProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4EAB4AB3241173D0001504D5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB4AA424116FFA001504D5 /* SignUpInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4EAB4AB4241173DE001504D5 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB4AA224116FFA001504D5 /* SignUpLocalDataManager.swift */,
+				4EAB4AA624116FFA001504D5 /* SignUpRemoteDataManager.swift */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
 		4EC2D1E024104E2900F5FBE8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +274,8 @@
 				4EC2D20224104E2A00F5FBE8 /* PeetMeeTests */,
 				4EC2D20D24104E2A00F5FBE8 /* PeetMeeUITests */,
 				4EC2D1EA24104E2900F5FBE8 /* Products */,
+				674DC5BB5C8D789C99D3ADD9 /* Pods */,
+				FC5B29F48743C44B2B734446 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +292,9 @@
 		4EC2D1EB24104E2900F5FBE8 /* PeetMee */ = {
 			isa = PBXGroup;
 			children = (
-				4EC2D1EC24104E2900F5FBE8 /* AppDelegate.swift */,
-				4EC2D1EE24104E2900F5FBE8 /* SceneDelegate.swift */,
-				4EC2D1F024104E2900F5FBE8 /* ViewController.swift */,
-				4EC2D1F224104E2900F5FBE8 /* Main.storyboard */,
-				4EC2D1F524104E2A00F5FBE8 /* Assets.xcassets */,
-				4EC2D1F724104E2A00F5FBE8 /* LaunchScreen.storyboard */,
+				4E9667A324117D3F00ECE389 /* GoogleService-Info.plist */,
 				4EC2D1FA24104E2A00F5FBE8 /* Info.plist */,
+				4EC2D2212410539A00F5FBE8 /* App */,
 			);
 			path = PeetMee;
 			sourceTree = "<group>";
@@ -128,6 +317,150 @@
 			path = PeetMeeUITests;
 			sourceTree = "<group>";
 		};
+		4EC2D21D2410531900F5FBE8 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D21F2410532B00F5FBE8 /* Modules */,
+				4EC2D21E2410532500F5FBE8 /* Common */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		4EC2D21E2410532500F5FBE8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4E5E9FE32413150900AC2122 /* Extensions */,
+				4E9667A52411B9AF00ECE389 /* Constants.swift */,
+				4E5E9FDF2412FD9E00AC2122 /* PeetMeeLocalizables.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4EC2D21F2410532B00F5FBE8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4E27C4D124170816000D589F /* MainTabBar */,
+				4EAB4AA024116FDC001504D5 /* SignUp */,
+				4EC2D2222410548B00F5FBE8 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4EC2D2202410535400F5FBE8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D1EC24104E2900F5FBE8 /* AppDelegate.swift */,
+				4EC2D1EE24104E2900F5FBE8 /* SceneDelegate.swift */,
+				4E5E9FDB2412FC5400AC2122 /* Localizable.strings */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4EC2D2212410539A00F5FBE8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D21D2410531900F5FBE8 /* Code */,
+				4EC2D2202410535400F5FBE8 /* SupportingFiles */,
+				4EC2D1F524104E2A00F5FBE8 /* Assets.xcassets */,
+				4EC2D1F224104E2900F5FBE8 /* Main.storyboard */,
+				4EC2D1F724104E2A00F5FBE8 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4EC2D2222410548B00F5FBE8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D231241054BF00F5FBE8 /* View */,
+				4EC2D232241054C500F5FBE8 /* Interactor */,
+				4EC2D233241054CB00F5FBE8 /* Presenter */,
+				4EC2D235241054E100F5FBE8 /* WireFrame */,
+				4EC2D234241054D100F5FBE8 /* Entity */,
+				4EC2D2372410551A00F5FBE8 /* DataManagers */,
+				4EC2D2362410550E00F5FBE8 /* Protocols */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4EC2D231241054BF00F5FBE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D227241054A200F5FBE8 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4EC2D232241054C500F5FBE8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D226241054A200F5FBE8 /* LoginInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4EC2D233241054CB00F5FBE8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D223241054A200F5FBE8 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4EC2D234241054D100F5FBE8 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		4EC2D235241054E100F5FBE8 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D229241054A200F5FBE8 /* LoginWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		4EC2D2362410550E00F5FBE8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D225241054A200F5FBE8 /* LoginProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4EC2D2372410551A00F5FBE8 /* DataManagers */ = {
+			isa = PBXGroup;
+			children = (
+				4EC2D224241054A200F5FBE8 /* LoginLocalDataManager.swift */,
+				4EC2D228241054A200F5FBE8 /* LoginRemoteDataManager.swift */,
+			);
+			path = DataManagers;
+			sourceTree = "<group>";
+		};
+		674DC5BB5C8D789C99D3ADD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2678F4820B7459FAE5C460DC /* Pods-PeetMee.debug.xcconfig */,
+				24AEFA58488A967B7B72A9A0 /* Pods-PeetMee.release.xcconfig */,
+				72A8BE86A326FE9B29EA720E /* Pods-PeetMee-PeetMeeUITests.debug.xcconfig */,
+				03228F307E0FC4F5D1F82C22 /* Pods-PeetMee-PeetMeeUITests.release.xcconfig */,
+				06D6EAD7C31FFC736BFDEAEF /* Pods-PeetMeeTests.debug.xcconfig */,
+				44F92000190A8A1C9666480A /* Pods-PeetMeeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC5B29F48743C44B2B734446 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E25BD8A962DD83C17DF0EDBF /* Pods_PeetMee.framework */,
+				F2E04FE234109DC1A2BA0C19 /* Pods_PeetMee_PeetMeeUITests.framework */,
+				D28CD513C0648466F7502B8C /* Pods_PeetMeeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +468,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC2D21324104E2A00F5FBE8 /* Build configuration list for PBXNativeTarget "PeetMee" */;
 			buildPhases = (
+				91ED8BA0A6CDDE689CB376AB /* [CP] Check Pods Manifest.lock */,
 				4EC2D1E524104E2900F5FBE8 /* Sources */,
 				4EC2D1E624104E2900F5FBE8 /* Frameworks */,
 				4EC2D1E724104E2900F5FBE8 /* Resources */,
+				4EC2D21C24104F2500F5FBE8 /* swiftlint */,
+				5F4B1883EA22CA19A37B49F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +488,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC2D21624104E2A00F5FBE8 /* Build configuration list for PBXNativeTarget "PeetMeeTests" */;
 			buildPhases = (
+				587249E3D8C36FE9D02B23D5 /* [CP] Check Pods Manifest.lock */,
 				4EC2D1FB24104E2A00F5FBE8 /* Sources */,
 				4EC2D1FC24104E2A00F5FBE8 /* Frameworks */,
 				4EC2D1FD24104E2A00F5FBE8 /* Resources */,
@@ -170,9 +507,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EC2D21924104E2A00F5FBE8 /* Build configuration list for PBXNativeTarget "PeetMeeUITests" */;
 			buildPhases = (
+				73DBB608CAF9EE4775140297 /* [CP] Check Pods Manifest.lock */,
 				4EC2D20624104E2A00F5FBE8 /* Sources */,
 				4EC2D20724104E2A00F5FBE8 /* Frameworks */,
 				4EC2D20824104E2A00F5FBE8 /* Resources */,
+				DD3A65A5C54B98C43BAEC9CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,6 +553,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 4EC2D1E024104E2900F5FBE8;
 			productRefGroup = 4EC2D1EA24104E2900F5FBE8 /* Products */;
@@ -232,7 +572,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5E9FD92412FC5400AC2122 /* Localizable.strings in Resources */,
 				4EC2D1F924104E2A00F5FBE8 /* LaunchScreen.storyboard in Resources */,
+				4E9667A424117D3F00ECE389 /* GoogleService-Info.plist in Resources */,
 				4EC2D1F624104E2A00F5FBE8 /* Assets.xcassets in Resources */,
 				4EC2D1F424104E2900F5FBE8 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +596,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EC2D21C24104F2500F5FBE8 /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		587249E3D8C36FE9D02B23D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeetMeeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F4B1883EA22CA19A37B49F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeetMee/Pods-PeetMee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeetMee/Pods-PeetMee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeetMee/Pods-PeetMee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73DBB608CAF9EE4775140297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeetMee-PeetMeeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91ED8BA0A6CDDE689CB376AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeetMee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3A65A5C54B98C43BAEC9CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeetMee-PeetMeeUITests/Pods-PeetMee-PeetMeeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeetMee-PeetMeeUITests/Pods-PeetMee-PeetMeeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeetMee-PeetMeeUITests/Pods-PeetMee-PeetMeeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4EC2D1E524104E2900F5FBE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EC2D1F124104E2900F5FBE8 /* ViewController.swift in Sources */,
+				4EAB4A9F24105A5B001504D5 /* UIViewExtension.swift in Sources */,
+				4EAB4AAC24116FFA001504D5 /* SignUpView.swift in Sources */,
+				4EC2D22A241054A200F5FBE8 /* LoginPresenter.swift in Sources */,
+				4E66EE962484A872009F165D /* SignUpConstants.swift in Sources */,
+				4E27C4D3241708B4000D589F /* MainTabBarViewController.swift in Sources */,
+				4EAB4AAE24116FFA001504D5 /* SignUpWireFrame.swift in Sources */,
+				4EC2D22F241054A200F5FBE8 /* LoginRemoteDataManager.swift in Sources */,
+				4EC2D22E241054A200F5FBE8 /* LoginView.swift in Sources */,
+				4EC2D22C241054A200F5FBE8 /* LoginProtocols.swift in Sources */,
+				4EAB4AA924116FFA001504D5 /* SignUpLocalDataManager.swift in Sources */,
+				4E6E2CE32413263D007DC095 /* UIColorExtension.swift in Sources */,
+				4EC2D230241054A200F5FBE8 /* LoginWireFrame.swift in Sources */,
+				4EC2D22D241054A200F5FBE8 /* LoginInteractor.swift in Sources */,
 				4EC2D1ED24104E2900F5FBE8 /* AppDelegate.swift in Sources */,
 				4EC2D1EF24104E2900F5FBE8 /* SceneDelegate.swift in Sources */,
+				4E5E9FE2241314FB00AC2122 /* StringExtension.swift in Sources */,
+				4EAB4AA824116FFA001504D5 /* SignUpPresenter.swift in Sources */,
+				4EAB4AAA24116FFA001504D5 /* SignUpProtocols.swift in Sources */,
+				4E5E9FE02412FD9E00AC2122 /* PeetMeeLocalizables.swift in Sources */,
+				4EAB4AAB24116FFA001504D5 /* SignUpInteractor.swift in Sources */,
+				4EC2D22B241054A200F5FBE8 /* LoginLocalDataManager.swift in Sources */,
+				4EAB4AAD24116FFA001504D5 /* SignUpRemoteDataManager.swift in Sources */,
+				4E9667A62411B9AF00ECE389 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +780,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4E5E9FDB2412FC5400AC2122 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5E9FDA2412FC5400AC2122 /* en */,
+				4E5E9FDE2412FCB800AC2122 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		4EC2D1F224104E2900F5FBE8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4EC2D1F324104E2900F5FBE8 /* Base */,
+				4E5E9FDC2412FCB700AC2122 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +802,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				4EC2D1F824104E2A00F5FBE8 /* Base */,
+				4E5E9FDD2412FCB700AC2122 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +814,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +875,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -432,9 +928,11 @@
 		};
 		4EC2D21424104E2A00F5FBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2678F4820B7459FAE5C460DC /* Pods-PeetMee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3T9SZTCQ53;
 				INFOPLIST_FILE = PeetMee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +947,11 @@
 		};
 		4EC2D21524104E2A00F5FBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AEFA58488A967B7B72A9A0 /* Pods-PeetMee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3T9SZTCQ53;
 				INFOPLIST_FILE = PeetMee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +966,7 @@
 		};
 		4EC2D21724104E2A00F5FBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D6EAD7C31FFC736BFDEAEF /* Pods-PeetMeeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +988,7 @@
 		};
 		4EC2D21824104E2A00F5FBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F92000190A8A1C9666480A /* Pods-PeetMeeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1010,7 @@
 		};
 		4EC2D21A24104E2A00F5FBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A8BE86A326FE9B29EA720E /* Pods-PeetMee-PeetMeeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +1030,7 @@
 		};
 		4EC2D21B24104E2A00F5FBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03228F307E0FC4F5D1F82C22 /* Pods-PeetMee-PeetMeeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
